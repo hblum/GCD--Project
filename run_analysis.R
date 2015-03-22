@@ -1,15 +1,15 @@
 ############## Extracting Data ##################
 
-xtest <- read.table("UCI HAR Dataset/test/X_test.txt")
-ytest <- read.table("UCI HAR Dataset/test/y_test.txt")
-subtest <- read.table("UCI HAR Dataset/test/subject_test.txt")
+xtest <- read.table("test/X_test.txt")
+ytest <- read.table("test/y_test.txt")
+subtest <- read.table("test/subject_test.txt")
 
-xtrain <- read.table("UCI HAR Dataset/train/X_train.txt")
-ytrain <- read.table("UCI HAR Dataset/train/y_train.txt")
-subtrain <- read.table("UCI HAR Dataset/train/subject_train.txt")
+xtrain <- read.table("train/X_train.txt")
+ytrain <- read.table("train/y_train.txt")
+subtrain <- read.table("train/subject_train.txt")
 
-features <- read.table("UCI HAR Dataset/features.txt")
-activitylabels <- read.table("UCI HAR Dataset/activity_labels.txt")
+features <- read.table("features.txt")
+activitylabels <- read.table("activity_labels.txt")
 
 ############### Extracting x-Data   #########################
 
